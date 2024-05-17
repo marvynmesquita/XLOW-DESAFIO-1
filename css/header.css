@@ -1,0 +1,14 @@
+header {
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1vh;
+    background: rgb(14,14,14);
+    background: linear-gradient(0deg, rgba(14,14,14,1) 0%, rgba(27,27,27,1) 100%);
+}
+
+.logo {
+    height: 90%;
+}
