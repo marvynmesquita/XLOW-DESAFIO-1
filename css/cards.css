@@ -3,13 +3,18 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    justify-content: center;
     background-color: #1b1b1b;
-    max-width: 20rem;
+    width: 20rem;
     padding: 1rem;
     border-radius: 0.6rem;
     margin: 1rem;
     transition: transform 0.5s;
+    height: 40rem;
+    align-self: center;
+    justify-self: center;
+    @media (max-width: 560px) {
+        width: 40vw;
+    }
 }
 
 .productCard * {
@@ -23,6 +28,15 @@
 
 .productCard .thumb {
     height: 13rem;
+}
+
+.productCard .imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 5rem;
 }
 
 .productCard .miniThumb {
@@ -43,6 +57,8 @@
 .productCard h2 {
     font-size: 1.7rem;
     font-weight: 600;
+    height: 8rem;
+    text-align: center;
 }
 
 .productCard h3 {
@@ -53,6 +69,7 @@
 .productCard button {
     padding: 0.4rem;
     transition: 0.5s;
+    border: #d3c9a0 1px solid;
 }
 
 .productCard button:hover {
